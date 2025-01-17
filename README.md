@@ -1,5 +1,3 @@
-## Setup
-
 ```
 $ nvm use # uses node version in .nvmrc
 $ yarn install
