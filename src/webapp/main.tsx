@@ -1,5 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { Dhis2App } from "./pages/app/Dhis2App";
+import { read, writeFileXLSX } from "xlsx";
+
+// Add usage of xlsx
+console.log(read, writeFileXLSX);
 
 const domElementId = "root";
 const root = document.getElementById(domElementId);
