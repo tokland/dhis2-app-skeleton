@@ -1,0 +1,31 @@
+{
+    "baseDir": "./build",
+    "files": [
+        {
+            "path": "./user-extended-app.zip",
+            "friendlyName": "Build ZIP",
+            "compression": "none",
+            "maxSize": "2 MB",
+            "maxPercentIncrease": "20"
+        }
+    ],
+    "groups": [
+        {
+            "path": "./**/*.{css,eot,html,ico,js,json,png,po,pot,properties,svg,ttf,txt,webapp,woff,woff2}",
+            "friendlyName": "Build Folder",
+            "compression": "gzip",
+            "maxSize": "2 MB",
+            "maxPercentIncrease": "20"
+        }
+    ],
+    "reportOutput": [
+        [
+            "github",
+            {
+                "checkRun": true,
+                "commitStatus": true,
+                "prComment": true
+            }
+        ]
+    ]
+}
