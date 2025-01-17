@@ -2,7 +2,7 @@
     "baseDir": "./build",
     "files": [
         {
-            "path": "./user-extended-app.zip",
+            "path": "./dhis2-app-skeleton.zip",
             "friendlyName": "Build ZIP",
             "compression": "none",
             "maxSize": "2 MB",

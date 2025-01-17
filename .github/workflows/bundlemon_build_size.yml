@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-size-check:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       # Check out base (target) branch at the commit where the PR branched off
